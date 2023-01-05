@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * power_operation - returns square root of a number
- * @n: input number
- * @c: iterator
- *
- * Return: square root or -1
+ * power_operation - returns the natural square root of a number.
+ * @n: input number.
+ * @c: iterator.
+ * Return: square root or -1.
  */
 
 int power_operation(int n, int c)
@@ -21,10 +20,9 @@ int power_operation(int n, int c)
 }
 
 /**
- * _sqrt_recursion - returns square root of a number
- * @n: input number
- *
- * Return: square root
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: input number.
+ * Return: natural square root.
  */
 
 int _sqrt_recursion(int n)
@@ -36,5 +34,4 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 	return (1);
 	return (power_operation(n, 2));
-}
 }
