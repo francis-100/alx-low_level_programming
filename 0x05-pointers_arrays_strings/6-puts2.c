@@ -2,9 +2,7 @@
 
 /**
  * puts2 - prints every character of a string
- *
  * @str: string parameter input
- *
  * Return: Noting
 */
 
