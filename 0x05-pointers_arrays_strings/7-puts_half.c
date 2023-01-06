@@ -1,10 +1,8 @@
 #include"main.h"
 
 /**
- * puts_half - prints half of a string
- *
+ * puts_half - prints half string
  * @str: string parameter input
- *
  * Return: Nothing
 */
 
