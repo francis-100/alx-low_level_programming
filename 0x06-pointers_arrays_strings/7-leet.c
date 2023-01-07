@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * leet - function that encodes a string into 1337
  * @s: string input
@@ -16,13 +14,6 @@ char *leet(char *s)
 
 	while (s[c] != '\0')
 	{
-		/**
-		 * loop through array value five times
-		 * to check if the value is equal to
-		 * any small letter in array sl or
-		 * upper letter in array ul and if it
-		 * is replace it with the value in array n
-		*/
 
 		for (i = 0; i < 5; i++)
 		{
