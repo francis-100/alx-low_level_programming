@@ -7,6 +7,7 @@
  * @n2: second number
  * @r: buffer used by the function to store the result
  * @size_r: buffer size
+ *
  * Return: pointer to dest
  */
 
