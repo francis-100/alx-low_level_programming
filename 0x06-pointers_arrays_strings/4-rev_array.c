@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * reverse_array - function that reverses the
  *                content of an array of integers
@@ -15,13 +13,6 @@ void reverse_array(int *a, int n)
 
 	s = 0;
 	e = n - 1;
-	
-	/**
-	 * set value in array a in temp
-	 * then place the last array in
-	 * the first array then place the
-	 * value in temp to the last array
-	*/
 	
 	while (s < e)
 	{
