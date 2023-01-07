@@ -5,47 +5,19 @@
  * @s1: string 1 input to compare
  * @s2: against string 2
  *
- * Return: 0 if s1 and s2 are equal
- *        negative integer if the stopping character
- *                in @s1 is less than the stopping
- *                character in @s2
- *        positive integer if the stopping character
- *                in @s1 is greater than the stopping
- *                character in @s2
+ * Return: 0 if @s1 and @s2 are equal
+ *         -ve integer if @s1 is less than @s2
+ *         +ve integer if @s1 is greater than @s2
 */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, r;
+	int a = 0;
 
-	/**
-	 * iterate through src and
-	 * compare it with dest
-	*/
-
-	while (s1[i] != '\0' && s2[i] != '\0')
+	while (s1[a] == s2[a] && s1[a] && s2[a])
 	{
-		/**
-		 * if they differ by a single character
-		 * don't iterate further
-		*/
-
-		if (s1[i] != s2[i])
-		{
-			/*
-			 * return the difference between
-			 * the two characters
-			*/
-
-			r = s1[i] - s2[i];
-			break;
-		}
-		else
-		{
-			r = s1[i] - s2[i];
-		}
-		i++;
+		a++;
 	}
 
-	return (r);
+	return (s1[a] - s2[a]);
 }
