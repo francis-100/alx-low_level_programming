@@ -14,20 +14,11 @@ char *cap_string(char *s)
 	{
 		if (s[i] >= 97 && s[i] <= 122)
 		{
-			/**
-			 * if we have a null character
-			 * change its value to capital
-			*/
 
 			if (i == 0)
 			{
 				s[i] -= 32;
 			}
-
-			/**
-			 * if we have any character matching the one below before any small
-			 * letter change it to capital
-			*/
 
 			if (s[i - 1] == 32 || s[i - 1] == 9 || s[i - 1] == 10 ||
 				s[i - 1] == 44 || s[i - 1] == 59 || s[i - 1] == 46 ||
